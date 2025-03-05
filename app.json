@@ -1,0 +1,31 @@
+{
+  "name": "FILMPUBLISHER.LK",
+  "description": "✦ 𝐅𝐈𝐋𝐌𝐏𝐔𝐁𝐋𝐈𝐒𝐇𝐄𝐑.𝐋𝐊 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓 ✦",
+  "logo": "https://raw.githubusercontent.com/telegrambotcreator/img/main/FILMPUBLISHERLK.png",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "sylznTKb#JaJF8Gs2LfEWt-SGhen2T044Ek5WfUStzGIybqP974s",
+      "required": true
+    },  
+
+    "ALIVE_IMG": {
+      "description": "https://raw.githubusercontent.com/telegrambotcreator/img/main/FILMPUBLISHERLK.png",
+      "required": true
+    },
+    
+    "ALIVE_MSG": {
+      "description": "✦ 𝐅𝐈𝐋𝐌𝐏𝐔𝐁𝐋𝐈𝐒𝐇𝐄𝐑.𝐋𝐊 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓 ✦",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
